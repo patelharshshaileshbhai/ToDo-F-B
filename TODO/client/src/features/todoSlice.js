@@ -254,7 +254,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Base URL for your API
-const baseURL = 'http://localhost:5000/api/';
+const baseURL = 'to-do-f-b.vercel.app/api/';
 
 // Define initialState for your todo slice
 const initialState = {
