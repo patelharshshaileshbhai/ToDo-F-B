@@ -2,7 +2,7 @@ import cors from "cors";
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import todos from "../routes/todos.js";
+import todos from "./routes/todos.js";
 
 dotenv.config();
 
